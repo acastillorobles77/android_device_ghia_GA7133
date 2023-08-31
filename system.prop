@@ -1,0 +1,16 @@
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
+net.bt.name=Android
+persist.logd.filter=~! ~1013
+pm.dexopt.downgrade_after_inactive_days=10
+pm.dexopt.shared=quicken
+ro.build.description=ceres_b6-user 11 RP1A.201005.006 eng.androi.20211122.143102 release-keys
+ro.build.display.id=EGO_GA7133_002_V01_20211119
+ro.build.product=ceres-b6
+ro.lmk.critical_upgrade=true
+ro.lmk.downgrade_pressure=60
+ro.lmk.kill_heaviest_task=false
+ro.lmk.upgrade_pressure=40
+ro.product.cpu.abi2=armeabi
+ro.statsd.enable=true
+ro.wifi.channels=

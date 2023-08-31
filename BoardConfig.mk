@@ -8,7 +8,10 @@ DEVICE_PATH := device/ghia/GA7133
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
+AB_OTA_PARTITIONS += \
+    system \
+    vendor \
+    product
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture

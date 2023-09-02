@@ -36,6 +36,18 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
+    name: "fstab.nswap",
+    src: "etc/fstab.nswap",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.sun50iw10p1",
+    src: "etc/fstab.sun50iw10p1",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "fstab.wswap",
     src: "etc/fstab.wswap",
     vendor: true,

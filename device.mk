@@ -46,8 +46,8 @@ PRODUCT_CHARACTERISTICS := tablet
 
 # Rootdir
 PRODUCT_PACKAGES += \
-
-PRODUCT_PACKAGES += \
+    fstab.nswap \
+    fstab.sun50iw10p1 \
     fstab.wswap \
     init.common.rc \
     init.ram.rc \
